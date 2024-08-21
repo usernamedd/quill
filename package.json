@@ -29,7 +29,8 @@
     "start": "run-p start:*",
     "start:quill": "npm start -w quill",
     "start:website": "NEXT_PUBLIC_LOCAL_QUILL=true npm start -w website",
-    "lint": "npm run lint -ws"
+    "lint": "npm run lint -ws",
+    "debug":"npm run build && node -e \"require('fs').copyFileSync('./for_debug/index.html', './packages/quill/dist/index.html')\""
   },
   "keywords": [
     "quill",

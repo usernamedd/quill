@@ -62,6 +62,10 @@ Instantiate a new Quill object with a css selector for the div that should becom
 
 Take a look at the [Quill](https://quilljs.com/) website for more documentation, guides and [live playground](https://quilljs.com/playground/)!
 
+## 调试说明
+
+启动调试前执行命令：npm run debug
+
 ## Download
 
 ```shell
