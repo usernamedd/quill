@@ -75,7 +75,7 @@
     "defaults"
   ],
   "scripts": {
-    "build": "./scripts/build production",
+    "build": "./scripts/build development",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint .",
     "lint:tsc": "tsc --noEmit --skipLibCheck",

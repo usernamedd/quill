@@ -26,7 +26,7 @@ const constantPack = new DefinePlugin({
 module.exports = (env) =>
   merge(common, {
     mode: env.production ? 'production' : 'development',
-    devtool: 'source-map',
+    devtool: 'inline-source-map',
     plugins: [bannerPack, constantPack],
     devServer: {
       static: {
