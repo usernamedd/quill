@@ -66,6 +66,8 @@ Take a look at the [Quill](https://quilljs.com/) website for more documentation,
 
 启动调试前执行命令：npm run debug
 
+在windows上build。使用wsl环境执行build。
+
 ## Download
 
 ```shell
